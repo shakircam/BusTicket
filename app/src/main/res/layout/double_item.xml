@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/firstTx"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/border"
+        android:text="55"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="40dp"
+        android:layout_height="45dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/secondTx"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:text="56"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/firstTx"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/thirdTx"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:text="57"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/secondTx"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/fourTx"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:text="54"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/thirdTx"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/fiveTx"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:text="53"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/fourTx"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
